@@ -1,0 +1,365 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* header styling*/
+
+header {
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f161c;
+  color: #f0efef;
+  height: 4rem;
+  opacity: 0.8;
+}
+
+body {
+  background-color: #dae0df;
+}
+
+/*homepage picture*/
+
+.home {
+  margin-top: 4rem;
+  position: fixed;
+  left: 59rem;
+  opacity: 0.9;
+}
+
+/*part of the header*/
+
+.wonderdev {
+  padding-left: 15px;
+  font-size: 20px;
+}
+/* navigation list*/
+
+.headerlist {
+  width: 60%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15px;
+  opacity: 0.8;
+}
+
+.headerlist a {
+  color: #e3cf7b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+/* home page context*/
+
+.iamwonderdev {
+  font-size: 100px;
+  color: #1f161c;
+  position: fixed;
+  top: 25rem;
+  right: 45rem;
+  font-family: "Caudex", serif;
+}
+
+.frontpage {
+  color: #1f161c;
+  font-size: 55px;
+  position: fixed;
+  top: 33rem;
+  right: 40rem;
+  font-family: "Caudex", serif;
+}
+
+/* headers of navigation-list*/
+
+.headers {
+  color: #1f161c;
+  text-align: center;
+  padding-top: 6rem;
+  font-size: 40px;
+  font-family: "Caudex", serif;
+}
+/* my skills section*/
+
+.headerSkills {
+  padding-top: 6rem;
+  text-align: center;
+  font-size: 36px;
+}
+
+.mySkills {
+  text-align: center;
+}
+.mySkills li {
+  border-top: 1px solid black;
+  list-style: none;
+  padding-top: 58px;
+  color: #1f161c;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.links a {
+  font-size: 18px;
+  color: #1f161c;
+}
+.links a:hover {
+  color: white;
+}
+.skillsPhoto img {
+  width: 800px;
+  position: fixed;
+  bottom: 2rem;
+  right: 60rem;
+  top: 4rem;
+  opacity: 0.5;
+}
+
+.homeOfficePhoto img {
+  width: 800px;
+  position: fixed;
+  top: 4rem;
+  bottom: 2rem;
+  left: 60rem;
+  opacity: 0.5;
+}
+
+.formSkills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.formSkills input,
+.formSkills button {
+  font-size: 12px;
+  padding: 0.5rem;
+  border: none;
+}
+
+.formSkills button {
+  cursor: pointer;
+  background-color: #1f161c;
+  color: white;
+}
+
+.formSkills button:hover {
+  background-color: #e3cf7b;
+  color: #1f161c;
+}
+
+/* my projects section */
+
+.projects {
+  display: flex;
+}
+
+.projects img {
+  margin-top: 50px;
+  margin-left: 150px;
+  width: 300px;
+  padding: 30px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.coffeeshop img {
+  height: 300px;
+}
+.projects h2 {
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 150px;
+}
+
+.description {
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 150px;
+}
+
+.loaded {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+/* contact page section*/
+
+.btn {
+  text-align: center;
+  border-radius: 3px;
+}
+
+.btn button {
+  padding: 3px;
+  background-color: green;
+  font-size: 16px;
+  color: white;
+}
+
+.btn button[type="button"] {
+  background-color: red;
+  color: white;
+}
+
+.formSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 12rem;
+  height: 100vh;
+  width: 100vw;
+  font-size: 24px;
+}
+
+.formSection form {
+  border: 2px solid black;
+  border-top: 30px solid #1f161c;
+  padding: 15px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.contactForm input,
+.contactForm textarea {
+  margin-left: 20px;
+}
+
+.contactForm {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px;
+}
+.contactForm input {
+  width: 250px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.contactForm select {
+  width: 250px;
+  height: 25px;
+}
+.contactForm textarea {
+  width: 250px;
+  height: 125px;
+  border-radius: 3px;
+}
+
+/*.contactform textarea {
+  width: 15rem;
+  height: 5rem;
+}*/
+
+.socialmedia {
+  position: fixed;
+  top: 42rem;
+  left: 37rem;
+  font-size: 25px;
+  justify-content: space-between;
+  padding-right: 18rem;
+}
+
+.socialmedia a {
+  color: #1f161c;
+}
+
+.socialmedia a:hover {
+  color: white;
+}
+/* gallery section */
+
+/*.photogallery {
+  position: relative;
+  display: block;
+}*/
+
+.photogallery figure img {
+  /*position: absolute;
+  top: 0;*/
+  width: 100%;
+}
+/*
+.photogallery figure:first-child {
+  position: relative;
+}
+
+.photogallery figure img {
+  opacity: 0;
+  transition: opacity 1.2s;
+}
+
+.photogallery .bss-show img {
+  opacity: 1;
+}
+
+.photogallery p {
+  position: absolute;
+  bottom: 75em;
+  right: 35em;
+  opacity: 0;
+  transition: opacity 1.2s;
+}
+
+.photogallery bss-show p {
+  z-index: 2;
+  opacity: 1;
+}
+
+.bss.next,
+.bss.previous {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  opacity: 5;
+  user-select: none;
+}
+
+.bss-next {
+  right: 0;
+}
+.bss-prev {
+  left: 0;
+} */
+
+/* the blog part*/
+
+.secondHeader {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.writing {
+  text-align: center;
+  font-size: 18px;
+}
+
+.writing img {
+  width: 500px;
+  padding-top: 1rem;
+}
